@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="jersey-rest-api:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/jersey_rest_api_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="jersey-rest-api/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="jersey-rest-api" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

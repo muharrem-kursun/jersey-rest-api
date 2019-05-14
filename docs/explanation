@@ -1,0 +1,34 @@
+
+                                                REST VE RESTFULL
+
+         Rest client-iletisimiyle ilgili bir mimaridir.
+         http protokolü ile paralel olarak gelişmiş ve www (world wide web ) sisteminde  kullanılır.
+         Rest mimarilerinin kullanıldığı servislere restfull servis deniyor.
+         Ana fikir client-server arasındaki ilişkiyi komplex mimariler üzerinden sağlamak yerine komplex mimariler üzerinden sağlamak.
+         çünkü www dediğimiz yapı http protokolü üzerine kuruludur.
+         Diğer mimarilere göre daha basit ve hafiftir.
+
+                                                KULLANILAN METHODLAR
+
+         Rest mimarilerinin diğer önemli bir özelliği her http request'inde yapılması istenen işler özel methodlar ile yapılır.
+         Bu methodlar POST , PUT , GET ,DELETE 'dir.
+         Böylece proxy ihtiyacı ortadan kalkmış oluyor ve platform bağımsız yapılar kurmak kolaylaşıyor.
+         GET ve PUT methodları işimizi görmektedir.
+         Fakat restin tek amacı dataya en basit şekilde ulaşmak değil aynı zamanda en anlamlı sekilde ulasmaktır.
+         Bunun için diğer methodlarında kullanımına ihtiyac vardır.
+
+                                                 AVANTAJLARI
+
+         - platform bağımsızlar
+         - dilbağımsızlar
+         - esnek ve çok kolay genişletilebilirler
+
+
+                                                 DEZAVANTAJLARI
+
+         - stateless
+         -cacheable
+         -Uniform Interface
+         -Layered System
+         -Code on Demand
+
